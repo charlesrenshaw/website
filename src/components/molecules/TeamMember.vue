@@ -40,12 +40,30 @@ defineProps({
             <p class="text-[#0D1C2999] text-sm mb-3">{{ bio }}</p>
         </div>
         <div class="social-icons flex space-x-4">
-            <a :href="`mailto:${email}`" class="transition-colors group">
-                <i class="pi pi-envelope text-lg sm:text-xl md:text-2xl text-[#C5A788] group-hover:text-[#C5A788]"></i>
-            </a>
-            <a :href="linkedinLink" target="_blank" rel="noopener noreferrer" class="transition-colors group">
-                <i class="pi pi-linkedin text-lg sm:text-xl md:text-2xl text-[#C5A788] group-hover:text-[#C5A788]"></i>
-            </a>
+            <template v-if="email !== '#'">
+                <a :href="`mailto:${email}`"
+                    class="transition-colors duration-300 group cursor-pointer hover:scale-110 transform">
+                    <i
+                        class="pi pi-envelope text-lg sm:text-xl md:text-2xl text-[#C5A788] group-hover:text-[#A08B73] transition-all duration-300"></i>
+                </a>
+            </template>
+            <template v-else>
+                <span class="transition-colors duration-300 group cursor-not-allowed opacity-50">
+                    <i class="pi pi-envelope text-lg sm:text-xl md:text-2xl text-[#C5A788]"></i>
+                </span>
+            </template>
+            <template v-if="linkedinLink !== '#'">
+                <a :href="linkedinLink" target="_blank" rel="noopener noreferrer"
+                    class="transition-colors duration-300 group cursor-pointer hover:scale-110 transform">
+                    <i
+                        class="pi pi-linkedin text-lg sm:text-xl md:text-2xl text-[#C5A788] group-hover:text-[#A08B73] transition-all duration-300"></i>
+                </a>
+            </template>
+            <template v-else>
+                <span class="transition-colors duration-300 group cursor-not-allowed opacity-50">
+                    <i class="pi pi-linkedin text-lg sm:text-xl md:text-2xl text-[#C5A788]"></i>
+                </span>
+            </template>
         </div>
     </div>
 </template>
