@@ -54,7 +54,7 @@ const lawyers: Lawyer[] = [
         imageKey: "Adeboyejo",
         bio: "Legal advocate committed to delivering justice and favorable outcomes for clients.",
         email: "aaa@charlesrenshaw.com",
-        linkedinLink: "https://www.linkedin.com/in/adeboyejo-aromolaran-78366414/",
+        linkedinLink: "https://www.linkedin.com/in/adeboyejo-aromolaran-783664143/",
     },
     {
         name: "Faith Okoye",
@@ -70,7 +70,7 @@ const lawyers: Lawyer[] = [
         imageKey: "Nonye",
         bio: "Dedicated legal expert ensuring client success with personalized legal strategies.",
         email: "n.ezeani@charlesrenshaw.com",
-        linkedinLink: "https://www.linkedin.com/in/nonye-ezeani-51312614/",
+        linkedinLink: "https://www.linkedin.com/in/nonye-ezeani-513157161/",
     },
     {
         name: "Oluwatosin Akinyele",
