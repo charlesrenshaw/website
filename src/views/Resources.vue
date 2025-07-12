@@ -195,7 +195,6 @@ onBeforeUnmount(() => {
       <Header title=" resources" sub-title="Knowledge Centre" />
 
       <div class="container mx-auto py-8 md:py-16">
-        <!-- Featured Article -->
         <div class="featured-article flex flex-wrap">
           <div class="featured-image w-full lg:w-1/2 h-72 lg:h-auto relative lg:flex-grow-0">
             <div class="w-full h-full lg:absolute lg:inset-0 overflow-hidden">
@@ -228,7 +227,6 @@ onBeforeUnmount(() => {
           </div>
         </div>
 
-        <!-- Articles Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 lg:gap-y-8 lg:gap-x-8 mt-8 p-4 lg:p-0">
           <div v-for="(article, index) in newsData" :key="`news-${index}`" class="article-card">
             <div class="h-full p-[1px] box-content">
