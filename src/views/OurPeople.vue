@@ -48,14 +48,14 @@ const lawyers: Lawyer[] = [
         email: "ca@charlesrenshaw.com",
         linkedinLink: "https://www.linkedin.com/in/charlesadeyoriju/",
     },
-    {
-        name: "Adeboyejo Aromolaran",
-        title: "MANAGING PARTNER",
-        imageKey: "Adeboyejo",
-        bio: "Legal advocate committed to delivering justice and favorable outcomes for clients.",
-        email: "aaa@charlesrenshaw.com",
-        linkedinLink: "https://www.linkedin.com/in/adeboyejo-aromolaran-783664143/",
-    },
+    // {
+    //     name: "Adeboyejo Aromolaran",
+    //     title: "MANAGING PARTNER",
+    //     imageKey: "Adeboyejo",
+    //     bio: "Legal advocate committed to delivering justice and favorable outcomes for clients.",
+    //     email: "aaa@charlesrenshaw.com",
+    //     linkedinLink: "https://www.linkedin.com/in/adeboyejo-aromolaran-783664143/",
+    // },
     {
         name: "Faith Okoye",
         title: "SENIOR ASSOCIATE",
